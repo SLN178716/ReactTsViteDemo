@@ -39,7 +39,7 @@ module.exports = {
     'no-multi-spaces': 1, //不能用多余的空格
     'no-proto': 2, //禁止使用__proto__属性
     'no-redeclare': 2, //禁止重复声明变量
-    // 'no-shadow': 2, //外部作用域中的变量不能与它所包含的作用域中的变量或参数同名
+    'no-shadow': 2, //外部作用域中的变量不能与它所包含的作用域中的变量或参数同名
     'no-spaced-func': 2, //函数调用时 函数名与()之间不能有空格
     'no-trailing-spaces': 1, //一行结束后面不要有空格
     'no-this-before-super': 0, //在调用super()之前不能使用this或super
