@@ -6,7 +6,7 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
-    sourceType: 'module',
+    sourceType: 'module'
   },
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   plugins: ['react-refresh', 'react', 'prettier', 'react-hooks', '@typescript-eslint'],
@@ -60,5 +60,6 @@ module.exports = {
     'use-isnan': 2, //禁止比较时使用NaN，只能用isNaN()
     'valid-typeof': 2, //必须使用合法的typeof的值
     'react/jsx-key': 2, // jsx数组迭代key
-  },
+    '@typescript-eslint/no-explicit-any': ['off'] // 允许any
+  }
 }
